@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Basic Selectors */
+        p{color:blue;}            /* Type Selector */
+        .highlight { background: yellow; } /* Class Selector */
+        #header { font-size: 24px; }  /* ID Selector */
+        * { margin: 0; padding: 0; }  /* Universal Selector */
+
+        /* Combinator Selectors */
+        div p { color: red; }          /* Descendant Selector */
+        ul > li { font-weight: bold; } /* Child Selector */
+        h1 + p { margin-top: 0; }      /* Adjacent Sibling Selector */
+        h1 ~ p { color: gray; }        /* General Sibling Selector */
+
+        /* Attribute Selectors */
+        input[type="text"] { background: lightblue; }
+        a[href^="https"] { color: rgb(253, 0, 0); }
+        img[src$=".jpg"] { border: 2px solid black; }
+
+        /* Pseudo-Classes */
+        a:hover { color: rgba(10, 10, 10, 0.616); }
+        p:first-child { font-weight: bold; }
+        li:nth-child(2) { color: rgb(0, 255, 21); }
+
+        /* Pseudo-Elements */
+        p::before { content: "Note: "; font-weight: bold; color: red; }
+        p::after { content: " (End)"; font-style: italic; color: gray; }
+    </style>
+</head>
+<body>
+    <!-- Sample HTML to demonstrate selectors -->
+    <h1 id="header">Main Heading</h1>
+    <p class="highlight">Highlighted paragraph.</p>
+    <p>This paragraph text will be blue.</p>
+    <div>
+        <p>Red paragraph inside div.</p>
+    </div>
+    <ul>
+        <li>First item</li>
+        <li>Second item is blue</li>
+    </ul>
+    <a href="https://example.com">Hover over me</a>
+    <img src="photo.jpg">
+</body>
+</html>
 
