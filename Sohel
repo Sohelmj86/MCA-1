@@ -1,0 +1,74 @@
+Loops - 
+
+public class Loops{
+    public static void main(String args[]){
+        // for loop Increment (+) 
+
+          for loop is used when we know number of iterations
+        
+         System.out.println("Loops");
+         for(int i=1;i<=10;i--){
+             System.out.println(i);
+         }
+    
+         // For loop decrement (-)
+         System.out.println("Loops");
+         for(int i=10;i>=1;i--){
+             System.out.println(i);
+
+         while loop , condition check krega fir print krega
+             int i = 10;
+         while(i>3){
+             System.out.println(i);
+             i++;
+         }
+
+        // true false
+        boolean i = true;
+        int count = 5;
+         while (i){
+             System.out.println(count);
+             count--;
+             if(count < 1){
+                i=false;
+             }
+         }
+                // while loop - sirf condition pta hogi tb use hoga , agr hmhe iterations pta ni tb
+
+                // do while loop , print krega fir condition check krega
+
+        int i = 3;
+        do{
+            System.out.println("Welcome");
+            i--;
+        } while(i>1);
+    }
+}
+
+  // Even odd number print from 1 - 100 .
+ public class Continue{
+    public static void main(String [] args){
+         int i = 0;
+        while(i < 100){
+             if ( i % 2 == 1){
+                 i++;
+                 continue;
+             }
+             System.out.println(i);
+             i++;
+        }
+     }
+ }
+
+
+// public class Continue{
+//     public static void main(String [] args){
+//         for(int i = 1; i < 50; i++){
+//             if( i % 2 == 0){
+//                 System.out.print(i);
+//             }
+//             System.out.print(" ");
+//             if(i % 2 == 0){
+//                 System.out.println();
+//                 continue;
+//             }
