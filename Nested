@@ -1,0 +1,45 @@
+public class Nested{
+    public static void main(String args[]){
+        // //  int i = 1;
+        // for(int i=0;i<=10;i++){
+        //     for(int j=1;j<=10;j++){
+        //         System.out.println(i + " " + j);
+        //     }
+            
+        //  }
+        // int i = 1;
+
+        // * PRINT
+        // for(int i = 0; i < 5; i++){
+        //     for(int j= 0; j < 5; j++){
+        //         System.out.print(" * ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // * sop ko for loop k andr se hi print krwa rhe h isme
+            //  int i = 1;
+            // for(System.out.println("This is 1st func"); i<3; System.out.println("This is 3rd func")){
+            //          System.out.println(i);
+            //          i++;
+            //     }
+                
+
+            // int i= 0;
+            // while(i<3){
+            //     System.out.println(i);
+            //     i++;
+            // }    
+
+            // while k andr while loop (nested)
+            
+	int i = 0;
+	int j = 0;
+	while(i < 3){
+		while(j < 3){
+			System.out.println("*");
+			j++;	
+}
+     i++;
+}
+}} 
